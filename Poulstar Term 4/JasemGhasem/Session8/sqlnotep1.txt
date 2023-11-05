@@ -1,0 +1,8 @@
+Create Database <db_name>;
+Use <db_name>;
+Create Table <table_name> (
+	<ID> (DATA TYPE(e.g INT)) (UNSIGNED) (AUTO_INCREMENT) (UNIQUE) (NOT NULL),
+	PRIMARY KEY (ID)
+
+);
+

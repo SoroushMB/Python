@@ -1,0 +1,25 @@
+
+Chips : 4 
+Cheese Puff : 3 
+Popcorn : 4 
+Final Price : 23.5
+Chips : 5 
+Cheese Puff : 3 
+Popcorn : 4 
+Final Price : 25.5
+Chips : 4 
+Cheese Puff : 4 
+Popcorn : 2 
+Final Price : 22.0
+Chips : 0 
+Cheese Puff : 4 
+Popcorn : 7 
+Final Price : 24.0
+Chips : 13 
+Cheese Puff : 4 
+Popcorn : 7 
+Final Price : 50.0
+Chips : 5 
+Cheese Puff : 1 
+Popcorn : 4 
+Final Price : 20.5

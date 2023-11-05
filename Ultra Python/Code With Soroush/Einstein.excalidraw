@@ -1,0 +1,47 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 164,
+      "versionNonce": 1829816577,
+      "isDeleted": false,
+      "id": "7_JDVcR8wTXHbNq5GzsAM",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 285.3333435058594,
+      "y": 145,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 793.7994995117188,
+      "height": 125,
+      "seed": 345712448,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1691193838198,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Speed Of Light : 299,792,458 m/s -> 300,000,000 m/s -> 1,080,000,000 km/h\n\nMass : Gram\n\nE = mc^2 -> Gram x ((3x10^8)^2) = Energy",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Speed Of Light : 299,792,458 m/s -> 300,000,000 m/s -> 1,080,000,000 km/h\n\nMass : Gram\n\nE = mc^2 -> Gram x ((3x10^8)^2) = Energy",
+      "lineHeight": 1.25,
+      "baseline": 118
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "YLKQPyV_S9GddLUeMw30R",
+      "type": "text",
+      "x": 364,
+      "y": 174.54065142699622,
+      "width": 259.72784423828125,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1107348444,
+      "version": 126,
+      "versionNonce": 1149810788,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698849154505,
+      "link": null,
+      "locked": false,
+      "text": "72 -> 1,2,3,4,6,8,9,12,18,24,36,72\n\nPerfect Number:\n\n28 -> 1,2,4,7,14,28\n\nPerfect\n\n\n",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 194,
+      "containerId": null,
+      "originalText": "72 -> 1,2,3,4,6,8,9,12,18,24,36,72\n\nPerfect Number:\n\n28 -> 1,2,4,7,14,28\n\nPerfect\n\n\n",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

@@ -1,0 +1,47 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 406,
+      "versionNonce": 1465730261,
+      "isDeleted": false,
+      "id": "t8em8Btvb6PyD9tZC27Vg",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 388,
+      "y": 121.80000305175781,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 867.1875,
+      "height": 240,
+      "seed": 1909216808,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1691665359820,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 3,
+      "text": "Tkinter -> GUI(Graphical User Interface)\n\nWidgets : Label , Entry , Button , Checkbutton , Radiobutton , Notebook , \nText , OptionMenu , Frame , LabelFrame , ScrollBar , Combobox , Spinbox\n\nWindows : Tk , Toplevel\n\nMessage Box : Showerror , Showwarning , Showinfo\n\nLayouts : Pack , Place , Grid",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Tkinter -> GUI(Graphical User Interface)\n\nWidgets : Label , Entry , Button , Checkbutton , Radiobutton , Notebook , \nText , OptionMenu , Frame , LabelFrame , ScrollBar , Combobox , Spinbox\n\nWindows : Tk , Toplevel\n\nMessage Box : Showerror , Showwarning , Showinfo\n\nLayouts : Pack , Place , Grid",
+      "lineHeight": 1.2,
+      "baseline": 235
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

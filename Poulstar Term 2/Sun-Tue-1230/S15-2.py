@@ -1,0 +1,3 @@
+from random import randint
+num1 = randint(0,9)
+...

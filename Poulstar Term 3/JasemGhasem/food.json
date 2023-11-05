@@ -1,0 +1,5 @@
+{
+    "names" : ["Omlet","Kotlet","Lasagna"],
+    "instruction" : ["Gojeh,Tokhmemorgh,Namak,Felfel,PiazKhordshodeh","Goosht,Namak,Felfel,Piaz,Sibzamini,Ard","Goosht,PanirPizza,Gharch,PiazKhordshodeh,RobGojeh,VaraghehLasagna"],
+    "preparing_time" : [15,60,60]
+}

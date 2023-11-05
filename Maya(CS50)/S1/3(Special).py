@@ -1,0 +1,1 @@
+print("They aren't equal!") if int(input(">> ")) != int(input(">> ")) else print("They are equal")

@@ -1,0 +1,7 @@
+{
+    "books_info_labels_body" : {
+        "font":["Teko",15],
+        "text_color":"gray90",
+        "fg_color":"black"
+    }
+}

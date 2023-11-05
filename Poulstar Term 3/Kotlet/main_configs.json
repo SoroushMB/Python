@@ -1,0 +1,26 @@
+{
+    "buttons" : {
+        "bg" : "#231942",
+        "fg" : "gray95",
+        "font" : ["Product Sans Medium",16],
+        "border" : 25,
+        "relief" : "ridge",
+        "width" : 14
+    },
+    "labels" : {
+        "bg" : "#5e548e",
+        "fg" : "gray95",
+        "font" : ["Product Sans Medium",16],
+        "border" : 25,
+        "relief" : "raised",
+        "width" : 12
+    },
+    "entries" : {
+        "bg" : "#e0b1cb",
+        "fg" : "gray5",
+        "font" : ["Product Sans Medium",16],
+        "border" : 25,
+        "relief" : "sunken",
+        "width" : 16
+    }
+}

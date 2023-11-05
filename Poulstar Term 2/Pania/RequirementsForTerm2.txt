@@ -1,0 +1,16 @@
+I/O : input , Print
+Print : f-string
+Loops : For(Loops,String,Range) , While
+Turtle : fd , lt , rt , pencolor , pendown , penup , shape , bgcolor , color , beginfill , endfill , fillcolor , pensize , done , setposition , setx , sety
+DataTypes : string , integers , float , boolean , list , dictionary , tuple
+Functions : Parameters , Arguments , Global
+ListMethods : Append , Remove , Pop , Sort , Extend , Index , Reverse ,Clear
+TimeLibrary : (Sleep)
+Conditionals : If,Elif,Else
+FileHandling : Open , Write , Mode(W,R,A) , Close , (Readline) , (Readlines)
+RandomLibrary : Randint , (Randrange) , (Choice)
+ErrorHandling : (ValueError) , SyntaxError
+MathOperators : + , - , * , / , // , % , **
+StringMethods : Lower , Upper , Capitalize , Replace , (Split) , (Strip)
+LogicalOperators : > , >= , == , <= , < , (!=)
+DictionaryMethods : (Update) , Keys , Values , Pop , Clear , Items

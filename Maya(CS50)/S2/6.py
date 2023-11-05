@@ -1,0 +1,1 @@
+print(f"Meow\n"*10)

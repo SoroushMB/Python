@@ -1,0 +1,162 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 23,
+      "versionNonce": 152929942,
+      "isDeleted": false,
+      "id": "zKCd5tTvoZE5R1qQgnRIE",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 384,
+      "y": 156.1999969482422,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 94.85992431640625,
+      "height": 25,
+      "seed": 1382106321,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1694512301919,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "File_name",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "File_name",
+      "lineHeight": 1.25,
+      "baseline": 18
+    },
+    {
+      "type": "arrow",
+      "version": 25,
+      "versionNonce": 383324049,
+      "isDeleted": false,
+      "id": "CjL4Ii1f_3XQwNLBIBdv-",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 500,
+      "y": 169,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 82.4000244140625,
+      "height": 1.4000091552734375,
+      "seed": 131991921,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1693303240834,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": {
+        "elementId": "NL6tnFm81svPGg4iayb0E",
+        "focus": 0.8965236346923948,
+        "gap": 17.5999755859375
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          82.4000244140625,
+          1.4000091552734375
+        ]
+      ]
+    },
+    {
+      "type": "rectangle",
+      "version": 90,
+      "versionNonce": 716058111,
+      "isDeleted": false,
+      "id": "NL6tnFm81svPGg4iayb0E",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 600,
+      "y": 160.1999969482422,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 388.16007567849715,
+      "height": 323.8000030517578,
+      "seed": 1322576799,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "CjL4Ii1f_3XQwNLBIBdv-",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1693303240835,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "text",
+      "version": 209,
+      "versionNonce": 1179932106,
+      "isDeleted": false,
+      "id": "y3psBMf2uhm-w_v5y79vc",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 620.334759421685,
+      "y": 216.20000610351565,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 337.5,
+      "height": 172.79999999999998,
+      "seed": 846838623,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1694512301925,
+      "link": null,
+      "locked": false,
+      "fontSize": 16,
+      "fontFamily": 3,
+      "text": "Camel Case: firstFileName\n\nSnake Case: first_file_name\n\nPascal Case: FirstFileName\n\nHungorian Notation: sFirstFileName  \n\nKebab Case: first-file-name",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Camel Case: firstFileName\n\nSnake Case: first_file_name\n\nPascal Case: FirstFileName\n\nHungorian Notation: sFirstFileName  \n\nKebab Case: first-file-name",
+      "lineHeight": 1.2,
+      "baseline": 169
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
