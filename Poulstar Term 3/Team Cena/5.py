@@ -1,4 +1,4 @@
-from tkinter import Tk,Button,Entry,Toplevel,Label,PhotoImage
+from tkinter import Tk,Button,Entry,Toplevel,Label,PhotoImage,BooleanVar
 from tkinter.ttk import Checkbutton
 from turtle import fd,rt,circle,pencolor,bgcolor,pensize,shape
 from tkinter.messagebox import showerror
@@ -30,22 +30,45 @@ ConfigurationsENT = {
     "justify" : "center"
 }
 
+def ThemeSelector():
+    global ButtonIO
+    if ButtonIO.get() == True:
+        bgcolor("Black")
+    else:
+        bgcolor("White")
+
+def SpecialShapeDrawer():
+    global DistrictsCountEntry,ColorOfShapeEntry,PenSizEntry
+    DistrictsCountEntryResult = int(DistrictsCountEntry.get())
+    ColorOfShapeEntryResult = ColorOfShapeEntry.get()
+    PenSizEntryResult = int(PenSizEntry.get())
+
+    pencolor(ColorOfShapeEntryResult)
+    pensize(PenSizEntryResult)
+    for i in range(DistrictsCountEntryResult):
+        fd(100)
+        rt(360/DistrictsCountEntryResult)
+
 def SpecialShape():
+    global DistrictsCountEntry,ColorOfShapeEntry,PenSizEntry,ButtonIO,SpecialShapeWindow
     MainPG.iconify()
     SpecialShapeWindow = Toplevel()
     SpecialShapeWindow.title("Special Shape")
     SpecialShapeIcon = PhotoImage(file="spongebob.png")
     SpecialShapeWindow.iconphoto(False,SpecialShapeIcon)
-    
+
+    ButtonIO = BooleanVar()
+
     DistrictsCountLabel = Label(master=SpecialShapeWindow,text="Districts Count : ",cnf=ConfigurationsLBL)
     ColorOfShapeLabel = Label(master=SpecialShapeWindow,text="Color Of Shape : ",cnf=ConfigurationsLBL)
     PenSizLabel = Label(master=SpecialShapeWindow,text="Pensize : ",cnf=ConfigurationsLBL)
-    
+
     DistrictsCountEntry = Entry(master=SpecialShapeWindow,cnf=ConfigurationsENT)
     ColorOfShapeEntry = Entry(master=SpecialShapeWindow,cnf=ConfigurationsENT)
     PenSizEntry = Entry(master=SpecialShapeWindow,cnf=ConfigurationsENT)
-    
-    SpecialShapeButton = Button(master=SpecialShapeWindow,text="Press to draw!",cnf=ConfigurationsBTN)
+
+    SpecialShapeButton = Button(master=SpecialShapeWindow,text="Press to draw!",cnf=ConfigurationsBTN,command=SpecialShapeDrawer)
+    ThemeButton = Checkbutton(master=SpecialShapeWindow,text="Dark | Light!",onvalue=True,offvalue=False,variable=ButtonIO,command=ThemeSelector)
 
     DistrictsCountLabel.grid(row=0,column=0,sticky="nsew")
     ColorOfShapeLabel.grid(row=1,column=0,sticky="nsew")
@@ -56,6 +79,7 @@ def SpecialShape():
     PenSizEntry.grid(row=2,column=1,sticky="nsew")
     
     SpecialShapeButton.grid(row=3,column=0,columnspan=2,sticky="nsew")
+    ThemeButton.grid(row=4,column=0,columnspan=2,sticky="nsew")
     
     SpecialShapeWindow.mainloop()
 
