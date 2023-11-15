@@ -1,3 +1,3 @@
-string = "Mahan"
-list = ["MAHAN","ANISA","HAMID REZA","Parsa","Soroush"]
-print(list[:4])
+print(52/32)
+print(52//32)
+print(63%32)

@@ -1,26 +1,36 @@
 from tkinter import Tk,Entry,Button,Toplevel,Label,END
 from tkinter.messagebox import showinfo
-from json import dump,load
+from json import load
 
+with open("Settings.json") as Reza:
+    settings = load(Reza)
 
-settings = {
-    "LBL" : {
-        "fg" : "#d9d9d9",
-        "bg" : "#284b63",
-        "font" : ("JetBrains Mono",16),
-        "relief" : "raised",
-        "border" : 20,
-        "justify" : "center"
-    },
-    "BTN" : {
-        "fg" : "#d9d9d9",
-        "bg" : "#274c77",
-        "font" : ("JetBrains Mono",16),
-        "relief" : "raised",
-        "border" : 20,
-        "justify" : "center"
-    }
-}
+counter = 0
+def Lock():
+    global counter
+    counter += 1
+    if counter % 2 == 1:
+        Num0.config(state="disabled",bg="red")
+        Num1.config(state="disabled",bg="red")
+        Num2.config(state="disabled",bg="red")
+        Num3.config(state="disabled",bg="red")
+        Num4.config(state="disabled",bg="red")
+        Num5.config(state="disabled",bg="red")
+        Num6.config(state="disabled",bg="red")
+        Num7.config(state="disabled",bg="red")
+        Num8.config(state="disabled",bg="red")
+        Num9.config(state="disabled",bg="red")
+    else:
+        Num0.config(state="normal",bg="#274c77")
+        Num1.config(state="normal",bg="#274c77")
+        Num2.config(state="normal",bg="#274c77")
+        Num3.config(state="normal",bg="#274c77")
+        Num4.config(state="normal",bg="#274c77")
+        Num5.config(state="normal",bg="#274c77")
+        Num6.config(state="normal",bg="#274c77")
+        Num7.config(state="normal",bg="#274c77")
+        Num8.config(state="normal",bg="#274c77")
+        Num9.config(state="normal",bg="#274c77")
 
 def Num0Com():
     HeadUpDisplay.insert(index=END,string="0")
@@ -67,7 +77,7 @@ Num7 = Button(master=root,text="7",cnf=settings["BTN"],command=Num7Com)
 Num8 = Button(master=root,text="8",cnf=settings["BTN"],command=Num8Com)
 Num9 = Button(master=root,text="9",cnf=settings["BTN"],command=Num9Com)
 
-NumLock = Button(master=root,text="num\nlock",cnf=settings["BTN"])
+NumLock = Button(master=root,text="num\nlock",cnf=settings["BTN"],command=Lock)
 DivBtn = Button(master=root,text="/",cnf=settings["BTN"])
 MulBtn = Button(master=root,text="*",cnf=settings["BTN"])
 MinBtn = Button(master=root,text="-",cnf=settings["BTN"])
@@ -94,5 +104,4 @@ MinBtn.grid(row=1,column=3,sticky="nsew")
 PluBtn.grid(row=2,column=3,rowspan=2,sticky="nsew")
 EntBtn.grid(row=4,column=3,rowspan=2,sticky="nsew")
 DotBtn.grid(row=5,column=2,sticky="nsew")
-
 root.mainloop()
